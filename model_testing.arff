@@ -1,0 +1,16 @@
+@relation model_testing
+
+@attribute adj_1 {like,fun,loved,glad,awesome,interesting,well,amazing,exciting,beautiful,magical,clean,great,better,popular,sexy,good,impressive,worth,cute,enough,excellent,perfect,delicious,pretty,best,hot,dedicated,right,cool,adorable,nice,proud,lucky,prize,relaxed,profound,hilarious,classic,favorite,fabulous,brilliant,important,romantic,honest,supportive,sweeping,happy,coherent,wonderful,correct,easy,decent,grand,supporting,exquisite,magic}
+@attribute adj_2 {crazy,bitter,lost,bad,vice,hated,impossible,picky,fell,awful,messy,evil,wrong,horrible,slow,useless,depressing,shameful,stupid,funny,disappointing,idiot,worse,crack,absurd,boring,worthless,mad,ridiculous,mindless,sorry,terrible,sad,afraid,defensive,mocking,disliked,cheap,aching,tired,lame,heartbreaking,hung,crash,inaccurate,intense,bored,tragic,sarcastic,unexpected,unable,obnoxious,damn,corrupting,loose,ashamed,delayed,unpredictable,sick,hard,ruined,scared,pale,fat,desperate,lousy,loser,invisible,retarded,cold,dumb,atrocious,queer,frenzied,lazy,worst,rife,disappointed,silly}
+@attribute verb_1 {like,liked,wow,work,well,exciting,love,loved,clean,worth,enjoyed,award,enjoy,better,enjoying,right,cool,win,favor,admiring,excited,benefit,adore,prize,appeal,relaxed,humor,honor,respect,sweeping,encourage,correct,thank,supporting,won}
+@attribute verb_2 {suck,sucked,lost,hate,sucks,hated,hedge,ignore,fell,depressing,slow,miss,hating,boring,devastate,blame,slap,cry,dislike,bitch,mocking,disliked,biased,aching,tired,despised,lie,fault,hung,crash,refusing,twist,shame,alarm,bored,decline,despise,break,damn,corrupting,loose,fall,ruined,rant,scared,pale,drain,joke,freak,struggle,gasp,lapse,disappointed,ruining}
+@attribute negation {no,yes}
+@attribute connector {as,so,that,or,and,but,though,if,for,then,whether,'on the other hand',because,'even though','because of',yet,than,both,still,'in addition to',nor,unless,'just as',instead,else}
+@attribute polarity {pos,neg}
+
+
+@data
+?,?,love,?,no,?,pos
+?,terrible,?,?,no,?,neg
+?,bad,?,?,no,?,neg
+excellent,?,?,sucked,no,but,neg
